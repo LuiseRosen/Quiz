@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(162, 177, 255) !important;
+}
+
+.container { /* die klasse container existiert schon in bootstrap und hat immer einen Rand. Um diesen unsichtbar zu machen haben wir dem Body die selbe Hintergrundfarbe gegeben */
+    min-height: 100vh;
+    background-color: rgb(162, 177, 255) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-card {
+    width: 30rem;
+}
+
+.question-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+}
