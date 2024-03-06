@@ -14,10 +14,44 @@ body {
     width: 30rem;
 }
 
+.quiz-answer-card:hover {
+cursor: pointer;
+background-color: rgba(0, 0, 0, 0.03);
+transition: ease-in 0.15s;
+}
+
 .question-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 12px;
     border-top: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.bg-success, .bg-danger {
+    color: white !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+}
+
+#header-img {
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.final-h1 {
+    margin-bottom: 12px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
